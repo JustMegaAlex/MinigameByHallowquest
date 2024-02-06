@@ -4,6 +4,9 @@ vsp_max = 60
 grav = 1.3
 jump_sp = -30
 vsp = 0
+in_control = true
+
+initial_image_speed = image_speed
 
 function Move() {
 	move_coord(0, vsp)
@@ -24,4 +27,12 @@ function Move() {
 		contact = new_contact
 	}
 	return contact
+}
+
+function AnimationStop() {
+	image_speed = 0
+}
+
+function AnimationRun() {
+	image_speed = initial_image_speed
 }

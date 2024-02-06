@@ -1,4 +1,7 @@
 
+if global.pause
+	exit
+
 if !spawn_timer.update() {
 	spawn_timer.start()
 	var inst = instance_create_layer(
