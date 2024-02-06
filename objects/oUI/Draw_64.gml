@@ -1,12 +1,11 @@
 
 var w = display_get_gui_width(), h = display_get_gui_height()
-if draw_fade {
-	// pause fading
-	draw_set_alpha(pause_alpha)
-	draw_set_color(c_black)
-	draw_rectangle(0, 0, w, h, false)
-	draw_set_alpha(1)
-}
+
+// pause fading
+draw_set_alpha(pause_alpha)
+draw_set_color(c_black)
+draw_rectangle(0, 0, w, h, false)
+draw_set_alpha(1)
 
 // text
 draw_set_color(#ADD8F7)

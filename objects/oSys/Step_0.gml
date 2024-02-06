@@ -4,16 +4,14 @@ var key_space = keyboard_check_pressed(vk_space)
 
 if global.pause {
 	if key_space {
-		global.pause = false
-		oAria.AnimationRun()
+		Unpause()
 	} else if key_esc {
 		game_end()
 	}
 } else {
 	layer_x("Background", layer_get_x("Background") - global.runner_speed)
 	if key_esc {
-		global.pause = true
-		oAria.AnimationStop()
+		Pause()
 	}
 }
 
