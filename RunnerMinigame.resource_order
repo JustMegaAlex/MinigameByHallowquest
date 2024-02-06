@@ -23,6 +23,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"utils","order":6,"path":"scripts/utils/utils.yy",},
+    {"name":"sAriaRun","order":1,"path":"sprites/sAriaRun/sAriaRun.yy",},
     {"name":"geometry","order":3,"path":"scripts/geometry/geometry.yy",},
     {"name":"ui","order":5,"path":"scripts/ui/ui.yy",},
     {"name":"movement","order":4,"path":"scripts/movement/movement.yy",},

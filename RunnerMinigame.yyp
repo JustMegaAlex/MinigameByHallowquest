@@ -41,6 +41,7 @@
   "resources": [
     {"id":{"name":"utils","path":"scripts/utils/utils.yy",},},
     {"id":{"name":"libORoomSelectButton","path":"objects/libORoomSelectButton/libORoomSelectButton.yy",},},
+    {"id":{"name":"sAriaRun","path":"sprites/sAriaRun/sAriaRun.yy",},},
     {"id":{"name":"geometry","path":"scripts/geometry/geometry.yy",},},
     {"id":{"name":"ui","path":"scripts/ui/ui.yy",},},
     {"id":{"name":"movement","path":"scripts/movement/movement.yy",},},
@@ -51,6 +52,7 @@
     {"id":{"name":"oTopDownAimCamera","path":"objects/oTopDownAimCamera/oTopDownAimCamera.yy",},},
     {"id":{"name":"camera","path":"scripts/camera/camera.yy",},},
     {"id":{"name":"libORoomSelectMenu","path":"objects/libORoomSelectMenu/libORoomSelectMenu.yy",},},
+    {"id":{"name":"sAriaIdle","path":"sprites/sAriaIdle/sAriaIdle.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
