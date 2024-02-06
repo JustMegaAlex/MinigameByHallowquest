@@ -29,6 +29,7 @@
     {"name":"sGround","order":2,"path":"sprites/sGround/sGround.yy",},
     {"name":"debug","order":2,"path":"scripts/debug/debug.yy",},
     {"name":"camera","order":1,"path":"scripts/camera/camera.yy",},
+    {"name":"oSys","order":4,"path":"objects/oSys/oSys.yy",},
     {"name":"rmGame","order":1,"path":"rooms/rmGame/rmGame.yy",},
   ],
 }
