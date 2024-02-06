@@ -6,6 +6,7 @@
     {"name":"Scripts","order":3,"path":"folders/Libraries/AlexLibs/Scripts.yy",},
     {"name":"Rooms","order":9,"path":"folders/Rooms.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+    {"name":"Scripts","order":16,"path":"folders/Scripts.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"utils","order":6,"path":"scripts/utils/utils.yy",},

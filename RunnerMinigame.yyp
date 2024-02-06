@@ -18,6 +18,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -27,6 +28,7 @@
   },
   "resources": [
     {"id":{"name":"utils","path":"scripts/utils/utils.yy",},},
+    {"id":{"name":"Globals","path":"scripts/Globals/Globals.yy",},},
     {"id":{"name":"oGround","path":"objects/oGround/oGround.yy",},},
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},},
     {"id":{"name":"oAria","path":"objects/oAria/oAria.yy",},},
