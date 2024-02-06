@@ -11,7 +11,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"utils","order":6,"path":"scripts/utils/utils.yy",},
-    {"name":"fntSmall","order":7,"path":"fonts/fntSmall/fntSmall.yy",},
+    {"name":"fntSmall","order":1,"path":"fonts/fntSmall/fntSmall.yy",},
     {"name":"oGround","order":4,"path":"objects/oGround/oGround.yy",},
     {"name":"sBackground","order":3,"path":"sprites/sBackground/sBackground.yy",},
     {"name":"oAria","order":3,"path":"objects/oAria/oAria.yy",},
@@ -24,7 +24,6 @@
     {"name":"camera","order":1,"path":"scripts/camera/camera.yy",},
     {"name":"oSys","order":1,"path":"objects/oSys/oSys.yy",},
     {"name":"oUI","order":6,"path":"objects/oUI/oUI.yy",},
-    {"name":"fntMain","order":6,"path":"fonts/fntMain/fntMain.yy",},
     {"name":"Game","order":1,"path":"scripts/Game/Game.yy",},
     {"name":"rmGame","order":1,"path":"rooms/rmGame/rmGame.yy",},
     {"name":"oBlock","order":5,"path":"objects/oBlock/oBlock.yy",},

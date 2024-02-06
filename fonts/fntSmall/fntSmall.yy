@@ -119,8 +119,8 @@
   "lineHeight": 16,
   "maintainGms1Font": false,
   "parent": {
-    "name": "RunnerMinigame",
-    "path": "RunnerMinigame.yyp",
+    "name": "Fonts",
+    "path": "folders/Fonts.yy",
   },
   "pointRounding": 0,
   "ranges": [
