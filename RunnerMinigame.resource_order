@@ -1,5 +1,6 @@
 {
   "FolderOrderSettings": [
+    {"name":"Fonts","order":5,"path":"folders/Fonts.yy",},
     {"name":"Libraries","order":3,"path":"folders/Libraries.yy",},
     {"name":"AlexLibs","order":1,"path":"folders/Libraries/AlexLibs.yy",},
     {"name":"Objects","order":2,"path":"folders/Libraries/AlexLibs/Objects.yy",},
@@ -7,7 +8,6 @@
     {"name":"Rooms","order":2,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
-    {"name":"Fonts","order":5,"path":"folders/Fonts.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"utils","order":6,"path":"scripts/utils/utils.yy",},
@@ -15,7 +15,6 @@
     {"name":"oGround","order":4,"path":"objects/oGround/oGround.yy",},
     {"name":"sBackground","order":3,"path":"sprites/sBackground/sBackground.yy",},
     {"name":"oAria","order":3,"path":"objects/oAria/oAria.yy",},
-    {"name":"oResolution","order":7,"path":"objects/oResolution/oResolution.yy",},
     {"name":"oLevelGen","order":2,"path":"objects/oLevelGen/oLevelGen.yy",},
     {"name":"sAriaRun","order":1,"path":"sprites/sAriaRun/sAriaRun.yy",},
     {"name":"movement","order":4,"path":"scripts/movement/movement.yy",},

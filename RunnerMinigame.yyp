@@ -11,6 +11,7 @@
   },
   "defaultScriptType": 1,
   "Folders": [
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Fonts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Libraries","folderPath":"folders/Libraries.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"AlexLibs","folderPath":"folders/Libraries/AlexLibs.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Libraries/AlexLibs/Objects.yy",},
@@ -19,7 +20,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Fonts.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -34,7 +34,6 @@
     {"id":{"name":"oGround","path":"objects/oGround/oGround.yy",},},
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},},
     {"id":{"name":"oAria","path":"objects/oAria/oAria.yy",},},
-    {"id":{"name":"oResolution","path":"objects/oResolution/oResolution.yy",},},
     {"id":{"name":"oLevelGen","path":"objects/oLevelGen/oLevelGen.yy",},},
     {"id":{"name":"sAriaRun","path":"sprites/sAriaRun/sAriaRun.yy",},},
     {"id":{"name":"movement","path":"scripts/movement/movement.yy",},},
