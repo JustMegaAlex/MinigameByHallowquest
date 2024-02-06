@@ -34,6 +34,7 @@
     {"id":{"name":"oGround","path":"objects/oGround/oGround.yy",},},
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},},
     {"id":{"name":"oAria","path":"objects/oAria/oAria.yy",},},
+    {"id":{"name":"oResolution","path":"objects/oResolution/oResolution.yy",},},
     {"id":{"name":"oLevelGen","path":"objects/oLevelGen/oLevelGen.yy",},},
     {"id":{"name":"sAriaRun","path":"sprites/sAriaRun/sAriaRun.yy",},},
     {"id":{"name":"movement","path":"scripts/movement/movement.yy",},},
