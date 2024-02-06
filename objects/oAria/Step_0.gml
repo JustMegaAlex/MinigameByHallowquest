@@ -16,4 +16,3 @@ if ((vsp > 0) and !down_free) or ((vsp < 0) and !up_free)
 	vsp = 0
 
 Move()
-
