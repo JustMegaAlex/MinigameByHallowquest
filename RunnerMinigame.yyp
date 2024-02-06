@@ -32,6 +32,7 @@
     {"id":{"name":"oGround","path":"objects/oGround/oGround.yy",},},
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},},
     {"id":{"name":"oAria","path":"objects/oAria/oAria.yy",},},
+    {"id":{"name":"oLevelGen","path":"objects/oLevelGen/oLevelGen.yy",},},
     {"id":{"name":"sAriaRun","path":"sprites/sAriaRun/sAriaRun.yy",},},
     {"id":{"name":"movement","path":"scripts/movement/movement.yy",},},
     {"id":{"name":"oStart","path":"objects/oStart/oStart.yy",},},
@@ -42,6 +43,7 @@
     {"id":{"name":"oSys","path":"objects/oSys/oSys.yy",},},
     {"id":{"name":"sAriaIdle","path":"sprites/sAriaIdle/sAriaIdle.yy",},},
     {"id":{"name":"rmGame","path":"rooms/rmGame/rmGame.yy",},},
+    {"id":{"name":"oBlock","path":"objects/oBlock/oBlock.yy",},},
     {"id":{"name":"rmStart","path":"rooms/rmStart/rmStart.yy",},},
   ],
   "RoomOrderNodes": [
