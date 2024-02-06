@@ -1,8 +1,8 @@
 
 /// main parameters
-vsp_max = 15
-grav = 0.6
-jump_sp = -9
+vsp_max = 60
+grav = 1.3
+jump_sp = -30
 vsp = 0
 
 function Move() {
