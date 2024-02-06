@@ -24,8 +24,11 @@
     {"name":"camera","order":1,"path":"scripts/camera/camera.yy",},
     {"name":"oSys","order":1,"path":"objects/oSys/oSys.yy",},
     {"name":"oUI","order":6,"path":"objects/oUI/oUI.yy",},
+    {"name":"sAriaJumpDown","order":6,"path":"sprites/sAriaJumpDown/sAriaJumpDown.yy",},
     {"name":"Game","order":1,"path":"scripts/Game/Game.yy",},
     {"name":"rmGame","order":1,"path":"rooms/rmGame/rmGame.yy",},
     {"name":"oBlock","order":5,"path":"objects/oBlock/oBlock.yy",},
+    {"name":"sAriaJumpUp","order":5,"path":"sprites/sAriaJumpUp/sAriaJumpUp.yy",},
+    {"name":"sAriaJumpMid","order":4,"path":"sprites/sAriaJumpMid/sAriaJumpMid.yy",},
   ],
 }

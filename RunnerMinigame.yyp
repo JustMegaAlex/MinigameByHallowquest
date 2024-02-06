@@ -46,9 +46,12 @@
     {"id":{"name":"oUI","path":"objects/oUI/oUI.yy",},},
     {"id":{"name":"sAriaIdle","path":"sprites/sAriaIdle/sAriaIdle.yy",},},
     {"id":{"name":"fntMain","path":"fonts/fntMain/fntMain.yy",},},
+    {"id":{"name":"sAriaJumpDown","path":"sprites/sAriaJumpDown/sAriaJumpDown.yy",},},
     {"id":{"name":"Game","path":"scripts/Game/Game.yy",},},
     {"id":{"name":"rmGame","path":"rooms/rmGame/rmGame.yy",},},
     {"id":{"name":"oBlock","path":"objects/oBlock/oBlock.yy",},},
+    {"id":{"name":"sAriaJumpUp","path":"sprites/sAriaJumpUp/sAriaJumpUp.yy",},},
+    {"id":{"name":"sAriaJumpMid","path":"sprites/sAriaJumpMid/sAriaJumpMid.yy",},},
     {"id":{"name":"rmStart","path":"rooms/rmStart/rmStart.yy",},},
   ],
   "RoomOrderNodes": [

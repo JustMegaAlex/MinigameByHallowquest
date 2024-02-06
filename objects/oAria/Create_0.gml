@@ -6,6 +6,8 @@ jump_sp = -30
 vsp = 0
 in_control = true
 
+was_down_free = false;
+
 initial_image_speed = image_speed
 
 function Move() {
