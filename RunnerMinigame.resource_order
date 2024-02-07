@@ -7,10 +7,10 @@
     {"name":"Scripts","order":3,"path":"folders/Libraries/AlexLibs/Scripts.yy",},
     {"name":"Rooms","order":2,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
+    {"name":"Sequences","order":6,"path":"folders/Sequences.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Moths","order":2,"path":"folders/Sprites/Moths.yy",},
     {"name":"Noom","order":1,"path":"folders/Sprites/Noom.yy",},
-    {"name":"Sequences","order":6,"path":"folders/Sequences.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"utils","order":6,"path":"scripts/utils/utils.yy",},
@@ -45,5 +45,6 @@
     {"name":"sAriaJumpUp","order":3,"path":"sprites/sAriaJumpUp/sAriaJumpUp.yy",},
     {"name":"sAriaJumpMid","order":2,"path":"sprites/sAriaJumpMid/sAriaJumpMid.yy",},
     {"name":"oSequence","order":9,"path":"objects/oSequence/oSequence.yy",},
+    {"name":"acTextWaving","order":2,"path":"animcurves/acTextWaving/acTextWaving.yy",},
   ],
 }
