@@ -8,6 +8,7 @@
     {"name":"Rooms","order":2,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+    {"name":"Moths","order":7,"path":"folders/Sprites/Moths.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"utils","order":6,"path":"scripts/utils/utils.yy",},
@@ -24,6 +25,9 @@
     {"name":"camera","order":1,"path":"scripts/camera/camera.yy",},
     {"name":"oSys","order":1,"path":"objects/oSys/oSys.yy",},
     {"name":"oUI","order":6,"path":"objects/oUI/oUI.yy",},
+    {"name":"sMothPink","order":1,"path":"sprites/sMothPink/sMothPink.yy",},
+    {"name":"sMothBlue","order":3,"path":"sprites/sMothBlue/sMothBlue.yy",},
+    {"name":"sMothTeal","order":2,"path":"sprites/sMothTeal/sMothTeal.yy",},
     {"name":"sAriaJumpDown","order":6,"path":"sprites/sAriaJumpDown/sAriaJumpDown.yy",},
     {"name":"Game","order":1,"path":"scripts/Game/Game.yy",},
     {"name":"rmGame","order":1,"path":"rooms/rmGame/rmGame.yy",},
