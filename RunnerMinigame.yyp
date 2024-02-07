@@ -59,7 +59,7 @@
     {"id":{"name":"sMothRed","path":"sprites/sMothRed/sMothRed.yy",},},
     {"id":{"name":"fntMain","path":"fonts/fntMain/fntMain.yy",},},
     {"id":{"name":"sAriaJumpDown","path":"sprites/sAriaJumpDown/sAriaJumpDown.yy",},},
-    {"id":{"name":"oCutsceneController","path":"objects/oCutsceneController/oCutsceneController.yy",},},
+    {"id":{"name":"oController","path":"objects/oController/oController.yy",},},
     {"id":{"name":"Game","path":"scripts/Game/Game.yy",},},
     {"id":{"name":"seqMeetNoom","path":"sequences/seqMeetNoom/seqMeetNoom.yy",},},
     {"id":{"name":"rmGame","path":"rooms/rmGame/rmGame.yy",},},

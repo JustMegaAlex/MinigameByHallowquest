@@ -34,7 +34,7 @@
     {"name":"sNoomCry2","order":2,"path":"sprites/sNoomCry2/sNoomCry2.yy",},
     {"name":"sMothTeal","order":2,"path":"sprites/sMothTeal/sMothTeal.yy",},
     {"name":"sAriaJumpDown","order":4,"path":"sprites/sAriaJumpDown/sAriaJumpDown.yy",},
-    {"name":"oCutsceneController","order":8,"path":"objects/oCutsceneController/oCutsceneController.yy",},
+    {"name":"oController","order":8,"path":"objects/oController/oController.yy",},
     {"name":"Game","order":1,"path":"scripts/Game/Game.yy",},
     {"name":"rmGame","order":1,"path":"rooms/rmGame/rmGame.yy",},
     {"name":"oMoth","order":7,"path":"objects/oMoth/oMoth.yy",},
