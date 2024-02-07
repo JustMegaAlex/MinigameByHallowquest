@@ -67,6 +67,7 @@
     {"id":{"name":"oBlock","path":"objects/oBlock/oBlock.yy",},},
     {"id":{"name":"sAriaJumpUp","path":"sprites/sAriaJumpUp/sAriaJumpUp.yy",},},
     {"id":{"name":"sAriaJumpMid","path":"sprites/sAriaJumpMid/sAriaJumpMid.yy",},},
+    {"id":{"name":"oSequence","path":"objects/oSequence/oSequence.yy",},},
     {"id":{"name":"rmStart","path":"rooms/rmStart/rmStart.yy",},},
   ],
   "RoomOrderNodes": [

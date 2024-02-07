@@ -41,5 +41,6 @@
     {"name":"oBlock","order":5,"path":"objects/oBlock/oBlock.yy",},
     {"name":"sAriaJumpUp","order":3,"path":"sprites/sAriaJumpUp/sAriaJumpUp.yy",},
     {"name":"sAriaJumpMid","order":2,"path":"sprites/sAriaJumpMid/sAriaJumpMid.yy",},
+    {"name":"oSequence","order":9,"path":"objects/oSequence/oSequence.yy",},
   ],
 }
