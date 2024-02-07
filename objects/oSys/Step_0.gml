@@ -9,7 +9,7 @@ if global.pause {
 		game_end()
 	}
 } else {
-	layer_x("Background", layer_get_x("Background") - global.runner_speed)
+	layer_x("Background", layer_get_x("Background") - global.runner_speed * bgr_move)
 	if key_esc {
 		Pause()
 	}
