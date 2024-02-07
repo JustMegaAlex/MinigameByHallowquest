@@ -39,6 +39,7 @@
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},},
     {"id":{"name":"oAria","path":"objects/oAria/oAria.yy",},},
     {"id":{"name":"oLevelGen","path":"objects/oLevelGen/oLevelGen.yy",},},
+    {"id":{"name":"acNomNom","path":"animcurves/acNomNom/acNomNom.yy",},},
     {"id":{"name":"oSequenceNightmare","path":"objects/oSequenceNightmare/oSequenceNightmare.yy",},},
     {"id":{"name":"sAriaRun","path":"sprites/sAriaRun/sAriaRun.yy",},},
     {"id":{"name":"oSequenceMeetNoom","path":"objects/oSequenceMeetNoom/oSequenceMeetNoom.yy",},},
