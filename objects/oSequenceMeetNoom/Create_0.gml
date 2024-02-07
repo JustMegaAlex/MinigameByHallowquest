@@ -9,12 +9,13 @@ create_noom_relative_x = -600
 create_noom_relative_y = 0
 
 function IsStartCondition() {
-    return abs(oAria.x - (x + aria_relative_x)) < global.runner_speed
+    return oAria.x >= x
 }
 function OnStart() {
     x = oAria.x - aria_relative_x
     sp = 0
 	oSys.SetBackgroundMove(false)
+	oAria.in_control = false
 }
 function OnFinish() {
     instance_create_layer(
@@ -24,3 +25,5 @@ function OnFinish() {
 	oSys.SetBackgroundMove(true)
 	instance_destroy()
 }
+
+self.Pause()

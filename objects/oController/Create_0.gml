@@ -8,5 +8,5 @@ enum GAME_PART {
 
 game_part = GAME_PART.BEGINNING
 
-meet_noom_timer = 180
+meet_noom_timer = 10
 sequence = noone

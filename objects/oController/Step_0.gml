@@ -6,7 +6,7 @@ switch (game_part) {
             oLevelGen.Stop()
             sequence = instance_create_layer(
                     room_width + 300,
-                    oGround.y - 300, 
+                    oGround.y,
                     "Instances", oSequenceMeetNoom)
             game_part = GAME_PART.MEET_NOOM
         }
@@ -14,7 +14,8 @@ switch (game_part) {
     case GAME_PART.MEET_NOOM:
         if !sequence.IsPlaying() && sequence.IsStartCondition() {
             sequence.Start()
-        } else if sequence.IsSeqenceFinished {
+			sequence.OnStart()
+        } else if sequence.IsSeqenceFinished() {
             sequence.OnFinish()
             game_part = GAME_PART.CELESTIAL_JUMP
             oLevelGen.Start()
@@ -25,8 +26,3 @@ switch (game_part) {
     case GAME_PART.NIGHTMARE:
         break
 }
-
-if !meet_noom_timer-- {
-	
-}
-
