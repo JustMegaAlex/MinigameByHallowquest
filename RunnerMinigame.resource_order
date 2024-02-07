@@ -31,6 +31,7 @@
     {"name":"sAriaJumpDown","order":6,"path":"sprites/sAriaJumpDown/sAriaJumpDown.yy",},
     {"name":"Game","order":1,"path":"scripts/Game/Game.yy",},
     {"name":"rmGame","order":1,"path":"rooms/rmGame/rmGame.yy",},
+    {"name":"oMoth","order":7,"path":"objects/oMoth/oMoth.yy",},
     {"name":"oBlock","order":5,"path":"objects/oBlock/oBlock.yy",},
     {"name":"sAriaJumpUp","order":5,"path":"sprites/sAriaJumpUp/sAriaJumpUp.yy",},
     {"name":"sAriaJumpMid","order":4,"path":"sprites/sAriaJumpMid/sAriaJumpMid.yy",},

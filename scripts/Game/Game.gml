@@ -7,9 +7,15 @@ function Gameover() {
 function Pause() {
 	global.pause = true
 	oAria.AnimationStop()
+	with (oMoth) {
+		image_speed = 0;	
+	}
 }
 
 function Unpause() {
 	global.pause = false
 	oAria.AnimationRun()
+	with (oMoth) {
+		image_speed = 1;	
+	}
 }

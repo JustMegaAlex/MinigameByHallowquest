@@ -1,3 +1,4 @@
 
-spawn_timer = make_timer(2 * room_speed)
-spawn_timer.start()
+spawn_timer = make_timer(random_range(spawn_time_min, spawn_time_max) * room_speed);
+spawn_timer.start();
+

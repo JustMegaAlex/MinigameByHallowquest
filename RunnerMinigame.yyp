@@ -54,6 +54,7 @@
     {"id":{"name":"sAriaJumpDown","path":"sprites/sAriaJumpDown/sAriaJumpDown.yy",},},
     {"id":{"name":"Game","path":"scripts/Game/Game.yy",},},
     {"id":{"name":"rmGame","path":"rooms/rmGame/rmGame.yy",},},
+    {"id":{"name":"oMoth","path":"objects/oMoth/oMoth.yy",},},
     {"id":{"name":"oBlock","path":"objects/oBlock/oBlock.yy",},},
     {"id":{"name":"sAriaJumpUp","path":"sprites/sAriaJumpUp/sAriaJumpUp.yy",},},
     {"id":{"name":"sAriaJumpMid","path":"sprites/sAriaJumpMid/sAriaJumpMid.yy",},},
