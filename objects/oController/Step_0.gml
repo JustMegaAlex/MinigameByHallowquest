@@ -4,8 +4,8 @@ switch (game_part) {
     case GAME_PART.BEGINNING:
         if !meet_noom_timer-- {
             oLevelGen.Stop()
-            sequence = instance_create(
-                    room_with + 300,
+            sequence = instance_create_layer(
+                    room_width + 300,
                     oGround.y - 300, 
                     "Instances", oSequenceMeetNoom)
             game_part = GAME_PART.MEET_NOOM
@@ -17,6 +17,7 @@ switch (game_part) {
         } else if sequence.IsSeqenceFinished {
             sequence.OnFinish()
             game_part = GAME_PART.CELESTIAL_JUMP
+            oLevelGen.Start()
         }
         break
     case GAME_PART.CELESTIAL_JUMP:

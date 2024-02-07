@@ -1,7 +1,8 @@
 
 event_inherited()
 
-sequence_inst = layer_sequence_create(layer, x, y, sequence)
+sequence = seqMeetNoom
+sequence_inst = layer_sequence_create("Instances", x, y, sequence)
 aria_relative_x = -400
 sp = -global.runner_speed
 create_noom_relative_x = -600
