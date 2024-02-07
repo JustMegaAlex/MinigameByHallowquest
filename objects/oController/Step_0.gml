@@ -12,8 +12,7 @@ switch (game_part) {
         }
         break
     case GAME_PART.MEET_NOOM:
-        if !sequence.IsPlaying 
-                &&  {
+        if !sequence.IsPlaying() && sequence.IsStartCondition() {
             sequence.Start()
         } else if sequence.IsSeqenceFinished {
             sequence.OnFinish()

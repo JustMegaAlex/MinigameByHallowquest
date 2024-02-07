@@ -1,6 +1,7 @@
 
 event_inherited()
 
+sequence_inst = layer_sequence_create(layer, x, y, sequence)
 aria_relative_x = -400
 sp = -global.runner_speed
 create_noom_relative_x = -600
@@ -10,13 +11,15 @@ function IsStartCondition() {
     return abs(oAria.x - (x + aria_relative_x)) < global.runner_speed
 }
 function OnStart() {
-    oAria.x = x + aria_relative_x
+    x = oAria.x - aria_relative_x
     sp = 0
+	oSys.SetBackgroundMove(false)
 }
 function OnFinish() {
     instance_create_layer(
         x + create_noom_relative_x,
         y + create_noom_relative_y,
         "Instances", oNoom)
+	oSys.SetBackgroundMove(true)
 	instance_destroy()
 }

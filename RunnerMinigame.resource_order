@@ -34,6 +34,7 @@
     {"name":"sMothPink","order":1,"path":"sprites/sMothPink/sMothPink.yy",},
     {"name":"sMothBlue","order":3,"path":"sprites/sMothBlue/sMothBlue.yy",},
     {"name":"acNomNom","order":2,"path":"animcurves/acNomNom/acNomNom.yy",},
+    {"name":"acNoomText","order":5,"path":"animcurves/acNoomText/acNoomText.yy",},
     {"name":"sNoomCry2","order":2,"path":"sprites/sNoomCry2/sNoomCry2.yy",},
     {"name":"oNoom","order":12,"path":"objects/oNoom/oNoom.yy",},
     {"name":"sMothTeal","order":2,"path":"sprites/sMothTeal/sMothTeal.yy",},

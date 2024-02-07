@@ -1,5 +1,5 @@
 
 event_inherited()
 
-function IsStartCond`ition() {}
+function IsStartCondition() {}
 function OnFinish() {}
