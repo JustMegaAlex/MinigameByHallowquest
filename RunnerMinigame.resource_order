@@ -19,7 +19,6 @@
     {"name":"sBackground","order":4,"path":"sprites/sBackground/sBackground.yy",},
     {"name":"oAria","order":3,"path":"objects/oAria/oAria.yy",},
     {"name":"oLevelGen","order":2,"path":"objects/oLevelGen/oLevelGen.yy",},
-    {"name":"acNomNom","order":8,"path":"animcurves/acNomNom/acNomNom.yy",},
     {"name":"oSequenceNightmare","order":11,"path":"objects/oSequenceNightmare/oSequenceNightmare.yy",},
     {"name":"sAriaRun","order":1,"path":"sprites/sAriaRun/sAriaRun.yy",},
     {"name":"oSequenceMeetNoom","order":10,"path":"objects/oSequenceMeetNoom/oSequenceMeetNoom.yy",},
@@ -34,6 +33,7 @@
     {"name":"oUI","order":6,"path":"objects/oUI/oUI.yy",},
     {"name":"sMothPink","order":1,"path":"sprites/sMothPink/sMothPink.yy",},
     {"name":"sMothBlue","order":3,"path":"sprites/sMothBlue/sMothBlue.yy",},
+    {"name":"acNomNom","order":2,"path":"animcurves/acNomNom/acNomNom.yy",},
     {"name":"sNoomCry2","order":2,"path":"sprites/sNoomCry2/sNoomCry2.yy",},
     {"name":"oNoom","order":12,"path":"objects/oNoom/oNoom.yy",},
     {"name":"sMothTeal","order":2,"path":"sprites/sMothTeal/sMothTeal.yy",},
@@ -46,6 +46,6 @@
     {"name":"sAriaJumpUp","order":3,"path":"sprites/sAriaJumpUp/sAriaJumpUp.yy",},
     {"name":"sAriaJumpMid","order":2,"path":"sprites/sAriaJumpMid/sAriaJumpMid.yy",},
     {"name":"oSequence","order":9,"path":"objects/oSequence/oSequence.yy",},
-    {"name":"acTextWaving","order":7,"path":"animcurves/acTextWaving/acTextWaving.yy",},
+    {"name":"acAriaText","order":4,"path":"animcurves/acAriaText/acAriaText.yy",},
   ],
 }

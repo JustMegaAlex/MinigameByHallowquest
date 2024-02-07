@@ -1,7 +1,7 @@
 {
   "resourceType": "GMAnimCurve",
   "resourceVersion": "1.2",
-  "name": "acTextWaving",
+  "name": "acAriaText",
   "channels": [
     {"resourceType":"GMAnimCurveChannel","resourceVersion":"1.0","name":"x","colour":4290799884,"points":[
         {"th0":-0.1,"th1":0.1,"tv0":0.0,"tv1":0.0,"x":0.0,"y":-407.0,},
@@ -20,7 +20,7 @@
   ],
   "function": 1,
   "parent": {
-    "name": "RunnerMinigame",
-    "path": "RunnerMinigame.yyp",
+    "name": "Sequences",
+    "path": "folders/Sequences.yy",
   },
 }
