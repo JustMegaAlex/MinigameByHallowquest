@@ -34,6 +34,7 @@
     {"name":"sMothPink","order":1,"path":"sprites/sMothPink/sMothPink.yy",},
     {"name":"sMothBlue","order":3,"path":"sprites/sMothBlue/sMothBlue.yy",},
     {"name":"sNoomCry2","order":2,"path":"sprites/sNoomCry2/sNoomCry2.yy",},
+    {"name":"oNoom","order":12,"path":"objects/oNoom/oNoom.yy",},
     {"name":"sMothTeal","order":2,"path":"sprites/sMothTeal/sMothTeal.yy",},
     {"name":"sAriaJumpDown","order":4,"path":"sprites/sAriaJumpDown/sAriaJumpDown.yy",},
     {"name":"oController","order":8,"path":"objects/oController/oController.yy",},

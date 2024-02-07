@@ -24,3 +24,7 @@ function Pause() {
 function Start() {
 	layer_sequence_speedscale(sequence_inst, 1)
 }
+
+function IsStartCondition() {}
+function OnStart() {}
+function OnFinish() {}

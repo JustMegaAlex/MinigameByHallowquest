@@ -13,10 +13,11 @@ switch (game_part) {
         break
     case GAME_PART.MEET_NOOM:
         if !sequence.IsPlaying 
-                && abs(oAria.x - sequence.aria_x_start) < global.runner_speed {
+                &&  {
             sequence.Start()
         } else if sequence.IsSeqenceFinished {
-
+            sequence.OnFinish()
+            game_part = GAME_PART.CELESTIAL_JUMP
         }
         break
     case GAME_PART.CELESTIAL_JUMP:

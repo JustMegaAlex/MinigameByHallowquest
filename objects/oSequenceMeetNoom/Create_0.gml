@@ -1,26 +1,22 @@
 
-sequence = noone
-sequence_inst = noone
-destroy_delay = 10
+event_inherited()
 
-function IsSeqenceFinished() {
-	var sp = layer_sequence_get_speedscale(sequence_inst)
-	return layer_sequence_get_headpos(sequence_inst)
-		   >= (layer_sequence_get_length(sequence_inst) - sp)
+aria_relative_x = -400
+sp = -global.runner_speed
+create_noom_relative_x = -600
+create_noom_relative_y = 0
+
+function IsStartCondition() {
+    return abs(oAria.x - (x + aria_relative_x)) < global.runner_speed
 }
-
-function IsSequenceOnFrame(frame) {
-	return layer_sequence_get_headpos(sequence_inst) == frame
+function OnStart() {
+    oAria.x = x + aria_relative_x
+    sp = 0
 }
-
-function IsPlaying() {
-	return layer_sequence_get_speedscale(sequence_inst) != 0
-}
-
-function Pause() {
-	layer_sequence_speedscale(sequence_inst, 0)
-}
-
-function Start() {
-	layer_sequence_speedscale(sequence_inst, 1)
+function OnFinish() {
+    instance_create_layer(
+        x + create_noom_relative_x,
+        y + create_noom_relative_y,
+        "Instances", oNoom)
+	instance_destroy()
 }

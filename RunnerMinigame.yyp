@@ -57,6 +57,7 @@
     {"id":{"name":"sMothBlue","path":"sprites/sMothBlue/sMothBlue.yy",},},
     {"id":{"name":"sAriaIdle","path":"sprites/sAriaIdle/sAriaIdle.yy",},},
     {"id":{"name":"sNoomCry2","path":"sprites/sNoomCry2/sNoomCry2.yy",},},
+    {"id":{"name":"oNoom","path":"objects/oNoom/oNoom.yy",},},
     {"id":{"name":"sMothTeal","path":"sprites/sMothTeal/sMothTeal.yy",},},
     {"id":{"name":"sMothRed","path":"sprites/sMothRed/sMothRed.yy",},},
     {"id":{"name":"fntMain","path":"fonts/fntMain/fntMain.yy",},},
