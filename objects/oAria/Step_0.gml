@@ -25,6 +25,10 @@ if key_jump and !down_free {
 	sprite_index = sAriaJumpUp;
 }
 
+if (keyboard_check_released(vk_space) && vsp < 0) {
+	vsp = 0;	
+}
+
 if ((vsp > 0 && !down_free) || (vsp < 0 && !up_free)) {
 	vsp = 0;
 } 

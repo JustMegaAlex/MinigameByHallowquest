@@ -12,8 +12,7 @@ if (xAnchor != toXAnchor || yAnchor != toYAnchor) {
 	toYAnchor = oAria.y;
 }
 
-if (isFollowingPlayer) {
-} else {
+if (!isFollowingPlayer) {
 	toXAnchor -= global.runner_speed;	
 }
 
