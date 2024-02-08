@@ -7,6 +7,8 @@ fgFactor = 1.25;
 bgFactor = 0.1;
 bgFarFactor = 0.05;
 
+millis = 0;
+
 function SetBackgroundMove(val) {
 	bgr_move = val
 }
