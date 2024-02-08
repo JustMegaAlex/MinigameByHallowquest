@@ -9,7 +9,23 @@ if global.pause {
 		game_end()
 	}
 } else {
-	layer_x("Background", layer_get_x("Background") - global.runner_speed * bgr_move)
+	var xMoveBy = -global.runner_speed * bgr_move
+	
+	MoveLayerXY("ForegroundPoppies", xMoveBy * fgFactor)
+	MoveLayerXY("ForegroundRocks", xMoveBy * fgFactor)
+	
+	MoveLayerXY("BackgroundRocks", xMoveBy)
+	MoveLayerXY("BackgroundFloor", xMoveBy)
+	MoveLayerXY("BackgroundPoppies", xMoveBy)
+	
+	MoveLayerXY("BackgroundFish", xMoveBy * bgFactor)
+	MoveLayerXY("BackgroundBrambles", xMoveBy * bgFactor)
+	MoveLayerXY("BackgroundBooks", xMoveBy * bgFactor)
+	
+	MoveLayerXY("BackgroundTower", xMoveBy * bgFarFactor)
+	MoveLayerXY("BackgroundFar", xMoveBy * bgFarFactor)
+	MoveLayerXY("BackgroundMoonhare", xMoveBy * bgFarFactor)
+
 	if key_esc {
 		Pause()
 	}

@@ -1,4 +1,4 @@
 
 gameover = false
 pause = false
-runner_speed = 15
+runner_speed = 10
