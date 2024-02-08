@@ -9,10 +9,6 @@ sp = -global.runner_speed
 create_noom_relative_x = -(635 - 365)
 create_noom_relative_y = -(232 + 110)
 
-sprite_index = sNoomRotate
-image_xscale = 0.5
-image_yscale = 0.5
-
 function IsStartCondition() {
     return oAria.x >= x
 }
@@ -23,7 +19,7 @@ function OnStart() {
 	oAria.in_control = false
 	oAria.visible = false
 	audio_stop_sound(sfxFootsteps)
-	layer_sequence_headpos(sequence_inst, 1500)
+	layer_sequence_headpos(sequence_inst, 1799)
 }
 function OnFinish() {
 	oSys.SetBackgroundMove(true)

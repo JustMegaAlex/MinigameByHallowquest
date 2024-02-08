@@ -1,10 +1,25 @@
 
-if is_sequence_finished() {
-	layer_sequence_speedscale(sequence_inst, 0)
-	layer_sequence_headpos(sequence_inst, 0)
-	if destroy_delay > 0 {
-		alarm[0] = destroy_delay
-	} else {
-		instance_destroy()
-	}
+frames++
+
+switch phase {
+	case 0:
+		if frames > 300 {
+			oAria.in_control = false
+			oScreenShaker.Shake(120, 15, 0.8)
+			frames = 0
+			phase++
+		}
+		break
+	case 1:
+		if frames > 240 {
+			oNoom.is_stalker_sequence = true	
+		}
+		if frames > 600 {
+			oNoom.is_stalker_sequence = false
+			oStalker.Appear()
+			oAria.in_control = true
+			oLevelGen.Start()
+			instance_destroy()
+		}
+		break
 }

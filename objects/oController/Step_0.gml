@@ -20,12 +20,16 @@ switch (game_part) {
             game_part = GAME_PART.CELESTIAL_JUMP
             oLevelGen.Start()
 			// obtain double jump
-			global.aria_jumps_max = 2
+			global.aria_jumps_max = 1
 			global.difficulty = 1
         }
         break
     case GAME_PART.CELESTIAL_JUMP:
-        break
-    case GAME_PART.NIGHTMARE:
+		// launch stalker cutscene
+		// sequence object will do the rest of the job
+		if !meet_stalker_timer-- {
+            sequence = instance_create_layer(0, 0, "Instances", oSequenceNightmare)
+			game_part = -1
+		}
         break
 }

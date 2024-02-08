@@ -1,5 +1,5 @@
 
-event_inherited()
+frames = 0
+phase = 0
 
-function IsStartCondition() {}
-function OnFinish() {}
+oLevelGen.Stop()
