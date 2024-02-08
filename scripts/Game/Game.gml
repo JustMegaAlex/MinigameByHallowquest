@@ -1,13 +1,16 @@
 
 function Gameover() {
-	audio_play_sound(sfxDefeat, 20, false);
-	global.gameover = true
-	oAria.in_control = false
+	if (!global.gameover) {
+		global.gameover = true
+		audio_play_sound(sfxDefeat, 20, false);
+		oAria.in_control = false
+	}
 }
 
 function Pause() {
 	global.pause = true
 	oAria.AnimationStop()
+	audio_stop_all();
 	with (oMoth) {
 		image_speed = 0;	
 	}
