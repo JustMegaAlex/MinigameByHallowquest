@@ -6,10 +6,11 @@ if global.pause {
 
 up_free = place_empty(x, y - 1, oGround)
 down_free = place_empty(x, y + 1, oGround)
-left_free = place_empty(x - 1, y, oGround)
 right_free = place_empty(x + 1, y, oGround)
+// left_free = place_empty(x - 1, y, oGround)
 
-if !right_free {
+// if stuck in obstacle - gameover
+if !(right_free || down_free || up_free) {
 	Gameover()
 }
 
