@@ -1,3 +1,6 @@
+if global.pause {
+	exit
+}
 
 if has_appeared {
 	var xdist = xto - x, ydist = yto - y

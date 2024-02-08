@@ -1,4 +1,8 @@
 
+if global.pause {
+	exit
+}
+
 frames++
 
 var xto = oAria.x + aria_relative_x + lengthdir_x(wave_raduis, frames * wave_speed_x)

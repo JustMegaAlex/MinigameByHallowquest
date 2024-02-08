@@ -4,7 +4,7 @@ if keyboard_check_pressed(vk_anykey) {
 	start_pressed = true
 }
 
-if start_pressed and !text_alpha {
+if start_pressed and text_alpha <= 0 {
 	room_goto_next()
 }
 

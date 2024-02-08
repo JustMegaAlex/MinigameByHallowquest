@@ -10,7 +10,6 @@ enum GAME_PART {
 
 game_part = GAME_PART.BEGINNING
 
-
 meet_noom_timer = make_timer(600)
-meet_stalker_timer = make_timer(1800)
+meet_stalker_timer = make_timer(1400)
 sequence = noone

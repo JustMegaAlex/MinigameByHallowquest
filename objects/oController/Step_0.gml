@@ -1,4 +1,7 @@
 
+if global.pause {
+	exit
+}
 
 switch (game_part) {
     case GAME_PART.BEGINNING:

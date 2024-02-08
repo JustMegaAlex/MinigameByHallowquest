@@ -18,4 +18,4 @@ if (!grounded) {
 	}
 }
 
-x += hsp
+x -= global.runner_speed

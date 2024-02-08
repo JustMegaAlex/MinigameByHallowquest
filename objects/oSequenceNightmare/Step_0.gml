@@ -1,4 +1,8 @@
 
+if global.pause {
+	exit
+}
+
 frames++
 
 switch phase {
@@ -19,6 +23,7 @@ switch phase {
 			oStalker.Appear()
 			oAria.in_control = true
 			oLevelGen.Start()
+			global.runner_speed = global.runner_speed_infinite
 			instance_destroy()
 		}
 		break
