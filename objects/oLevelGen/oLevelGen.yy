@@ -29,6 +29,8 @@
   "properties": [
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"spawn_time_min","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"1","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"spawn_time_max","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"3","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"moth_time_min","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0.5","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"moth_time_max","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"4","varType":0,},
   ],
   "solid": false,
   "spriteId": null,

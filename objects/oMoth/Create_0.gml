@@ -1,5 +1,5 @@
-
-sprite_index = array_choose([sMothBlue, sMothPink, sMothRed, sMothTeal])
+depth = -20;
+sprite_index = array_choose([sMothBlue, sMothPink, sMothRed, sMothTeal]);
 
 isFollowingPlayer = false;
 
