@@ -1,5 +1,9 @@
 
-ensure_singleton()
+if !ensure_singleton() {
+	exit
+}
+
+window_center()
 
 bgr_move = true
 
