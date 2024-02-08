@@ -2,7 +2,7 @@
   "resourceType": "GMFont",
   "resourceVersion": "1.0",
   "name": "fntSequence",
-  "AntiAlias": 1,
+  "AntiAlias": 0,
   "applyKerning": 0,
   "ascender": 48,
   "ascenderOffset": 0,
