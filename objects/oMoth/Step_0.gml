@@ -19,6 +19,7 @@ x = xAnchor + sin(millis * 2 * pi / xSeconds) * amplitude;
 y = yAnchor + sin(millis * 2 * pi / ySeconds) * amplitude;
 
 if (!isFollowingPlayer && place_meeting(x, y, oAria)) {
+	audio_play_sound(sfxCollect, 10, false);
 	isFollowingPlayer = true;
 	toXAnchor = irandom_range(oAria.bbox_left, oAria.bbox_right) - oAria.x;
 	toYAnchor = irandom_range(oAria.bbox_top, oAria.bbox_bottom - amplitude) - oAria.y;

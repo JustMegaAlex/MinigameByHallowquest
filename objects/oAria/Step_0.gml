@@ -49,6 +49,11 @@ if (!down_free && was_down_free) {
 }
 
 if (down_free != was_down_free) {
+	if (down_free) {
+		audio_stop_sound(sfxFootsteps);	
+	} else {
+		audio_play_sound(sfxFootsteps, 15, true);
+	}
 	was_down_free = down_free;
 }
 

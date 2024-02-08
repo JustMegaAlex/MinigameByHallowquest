@@ -1,5 +1,6 @@
 
 function Gameover() {
+	audio_play_sound(sfxDefeat, 20, false);
 	global.gameover = true
 	oAria.in_control = false
 }

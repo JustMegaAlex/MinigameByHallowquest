@@ -1,5 +1,6 @@
 
 if keyboard_check_pressed(vk_anykey) {
+	audio_play_sound(sfxClick, 10, false)
 	start_pressed = true
 }
 

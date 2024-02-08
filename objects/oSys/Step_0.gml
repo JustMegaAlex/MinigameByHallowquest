@@ -25,7 +25,6 @@ if global.pause {
 	MoveLayerXY("BackgroundTower", xMoveBy * bgFarFactor)
 	MoveLayerXY("BackgroundFar", xMoveBy * bgFarFactor)
 	
-	
 	millis += delta_time / 1000000
 	var moonHareY = sin(millis * 2 * pi / 10) * 0.25 * bgr_move;
 	MoveLayerXY("BackgroundMoonhare", xMoveBy * bgFarFactor, moonHareY)
