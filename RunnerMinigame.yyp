@@ -102,6 +102,7 @@
     {"id":{"name":"oMoth","path":"objects/oMoth/oMoth.yy",},},
     {"id":{"name":"sfxFootsteps","path":"sounds/sfxFootsteps/sfxFootsteps.yy",},},
     {"id":{"name":"oBlock","path":"objects/oBlock/oBlock.yy",},},
+    {"id":{"name":"fntSequence","path":"fonts/fntSequence/fntSequence.yy",},},
     {"id":{"name":"sAriaJumpUp","path":"sprites/sAriaJumpUp/sAriaJumpUp.yy",},},
     {"id":{"name":"sAriaJumpMid","path":"sprites/sAriaJumpMid/sAriaJumpMid.yy",},},
     {"id":{"name":"oSequence","path":"objects/oSequence/oSequence.yy",},},
