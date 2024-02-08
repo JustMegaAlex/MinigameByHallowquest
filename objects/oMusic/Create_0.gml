@@ -1,10 +1,14 @@
 
+if !ensure_singleton() {
+	exit
+}
 
+//if audio_is_playing(mscMainA) {
+//	exit
+//}
 
-sound_start_mainB_time = 180
-var len = audio_sound_length(mscMainA)
-var secs = sound_start_mainB_time / room_speed
-audio_sound_loop_end(mscMainA, secs)
-audio_sound_loop_end(mscMainB, secs)
+// start playing the track A right away
 audio_play_sound(mscMainA, 0, true)
-audio_play_sound(mscMainB, 0, true, 0)
+// track B will appear after the first loop finished
+track_b = audio_play_sound(mscMainB, 0, true, 0)
+alarm[0] = 300

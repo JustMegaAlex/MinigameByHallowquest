@@ -12,6 +12,7 @@
   "defaultScriptType": 1,
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Audio","folderPath":"folders/Audio.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Music","folderPath":"folders/Audio/Music.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"SFX","folderPath":"folders/Audio/SFX.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Fonts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Libraries","folderPath":"folders/Libraries.yy",},
@@ -28,7 +29,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Moths","folderPath":"folders/Sprites/Moths.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Noom","folderPath":"folders/Sprites/Noom.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Obstacles","folderPath":"folders/Sprites/Obstacles.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Music","folderPath":"folders/Audio/Music.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,

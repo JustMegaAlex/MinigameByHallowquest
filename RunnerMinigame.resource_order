@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings": [
     {"name":"Audio","order":7,"path":"folders/Audio.yy",},
+    {"name":"Music","order":1,"path":"folders/Audio/Music.yy",},
     {"name":"Fonts","order":5,"path":"folders/Fonts.yy",},
     {"name":"Libraries","order":3,"path":"folders/Libraries.yy",},
     {"name":"AlexLibs","order":1,"path":"folders/Libraries/AlexLibs.yy",},
@@ -14,7 +15,6 @@
     {"name":"Moths","order":2,"path":"folders/Sprites/Moths.yy",},
     {"name":"Noom","order":1,"path":"folders/Sprites/Noom.yy",},
     {"name":"Obstacles","order":5,"path":"folders/Sprites/Obstacles.yy",},
-    {"name":"Music","order":1,"path":"folders/Audio/Music.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"oStalker","order":15,"path":"objects/oStalker/oStalker.yy",},
