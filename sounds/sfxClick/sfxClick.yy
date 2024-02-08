@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "sfxClick.wav",
   "type": 0,
-  "volume": 1.0,
+  "volume": 0.21,
 }
