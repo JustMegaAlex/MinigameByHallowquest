@@ -1,8 +1,6 @@
 
 ensure_singleton()
 
-depth = -30
-
 xto = x
 yto = y
 x = -2000
