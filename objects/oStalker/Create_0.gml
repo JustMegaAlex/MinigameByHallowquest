@@ -6,7 +6,7 @@ depth = -30
 xto = x
 yto = y
 x = -2000
-sp_factor = 0.1
+sp_factor = 0.01
 has_appeared = false
 
 function Appear() {

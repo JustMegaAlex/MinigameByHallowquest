@@ -2,10 +2,10 @@
 
 switch (game_part) {
     case GAME_PART.BEGINNING:
-        if !meet_noom_timer-- {
+        if !meet_noom_timer.update() {
             oLevelGen.Stop()
             sequence = instance_create_layer(
-                    room_width + 700,
+                    room_width + 2000,
                     oGround.y,
                     "Instances", oSequenceMeetNoom)
             game_part = GAME_PART.MEET_NOOM
@@ -27,9 +27,9 @@ switch (game_part) {
     case GAME_PART.CELESTIAL_JUMP:
 		// launch stalker cutscene
 		// sequence object will do the rest of the job
-		if !meet_stalker_timer-- {
+		if !meet_stalker_timer.update() {
             sequence = instance_create_layer(0, 0, "Instances", oSequenceNightmare)
-			game_part = -1
+			game_part = GAME_PART.INFINITE
 		}
         break
 }

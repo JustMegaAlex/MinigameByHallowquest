@@ -10,13 +10,16 @@ function Gameover() {
 function Pause() {
 	global.pause = true
 	oAria.AnimationStop()
-	audio_stop_all();
+	audio_stop_sound(sfxFootsteps)
 	with (oMoth) {
 		image_speed = 0;	
 	}
 }
 
 function Unpause() {
+	if !oAria.down_free {
+		audio_play_sound(sfxFootsteps, 15, true)
+	}
 	global.pause = false
 	oAria.AnimationRun()
 	with (oMoth) {

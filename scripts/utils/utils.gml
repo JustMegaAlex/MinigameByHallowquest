@@ -372,7 +372,7 @@ function mouse_collision(obj_or_inst) {
 
 function Timer(time) constructor {
 	self.time = time
-	self.timer = 0
+	self.timer = time
 	
 	function update() {
 		self.timer -= timer > 0

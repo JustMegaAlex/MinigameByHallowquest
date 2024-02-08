@@ -9,3 +9,4 @@ if start_pressed and !text_alpha {
 }
 
 text_alpha += fade_out_sp * (start_pressed ? -1 : 1)
+text_alpha = min(1, text_alpha)
