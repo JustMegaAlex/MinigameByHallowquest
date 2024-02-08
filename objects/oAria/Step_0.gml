@@ -21,7 +21,7 @@ if in_control {
 
 vsp = approach(vsp, vsp_max, grav)
 
-if (key_jump && (!down_free || jump_count == 1)) {
+if (key_jump && (!down_free || jump_count <= global.aria_jumps_max)) {
 	jump_count += 1;
 	vsp = jump_sp
 	sprite_index = sAriaJumpUp;

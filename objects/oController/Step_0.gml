@@ -5,7 +5,7 @@ switch (game_part) {
         if !meet_noom_timer-- {
             oLevelGen.Stop()
             sequence = instance_create_layer(
-                    room_width + 300,
+                    room_width + 700,
                     oGround.y,
                     "Instances", oSequenceMeetNoom)
             game_part = GAME_PART.MEET_NOOM
@@ -19,6 +19,9 @@ switch (game_part) {
             sequence.OnFinish()
             game_part = GAME_PART.CELESTIAL_JUMP
             oLevelGen.Start()
+			// obtain double jump
+			global.aria_jumps_max = 2
+			global.difficulty = 1
         }
         break
     case GAME_PART.CELESTIAL_JUMP:

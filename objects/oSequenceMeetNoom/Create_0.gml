@@ -5,8 +5,9 @@ sequence = seqMeetNoom
 sequence_inst = layer_sequence_create("Instances", x, y, sequence)
 aria_relative_x = 0
 sp = -global.runner_speed
-create_noom_relative_x = -600
-create_noom_relative_y = 0
+// numbers are taken from sequence seqMeetNoom
+create_noom_relative_x = -(635 - 365)
+create_noom_relative_y = -(232 + 110)
 
 sprite_index = sNoomRotate
 image_xscale = 0.5
@@ -28,7 +29,10 @@ function OnFinish() {
 	oSys.SetBackgroundMove(true)
 	oAria.in_control = true
 	oAria.visible = true
-	instance_create_layer(x - (635 - 365), y - (232 + 110), "Instances", oNoom)
+	instance_create_layer(
+		x + create_noom_relative_x,
+		y + create_noom_relative_y,
+		"Instances", oNoom)
 	audio_play_sound(sfxFootsteps, 15, true)
 	instance_destroy()
 }

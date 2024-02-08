@@ -1,4 +1,6 @@
 
+ensure_singleton()
+
 enum GAME_PART {
 	BEGINNING,
 	MEET_NOOM,
@@ -8,5 +10,5 @@ enum GAME_PART {
 
 game_part = GAME_PART.BEGINNING
 
-meet_noom_timer = 10
+meet_noom_timer = 300
 sequence = noone

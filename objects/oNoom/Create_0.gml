@@ -1,4 +1,6 @@
 
+ensure_singleton()
+
 aria_relative_x = -300
 aria_relative_y = -100
 wave_raduis = 70
