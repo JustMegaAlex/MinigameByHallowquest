@@ -45,6 +45,11 @@ if global.gameover {
 	}
 }
 
+// turn on mscMainB
+if !sound_start_mainB_time-- {
+	audio_sound_gain(mscMainB, 1, 0)
+}
+
 // for debugging
 if keyboard_check_pressed(ord("R")) {
 	room_restart()

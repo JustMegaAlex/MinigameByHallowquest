@@ -9,6 +9,8 @@ bgFarFactor = 0.05;
 
 millis = 0;
 
+sound_start_mainB_time = 180
+
 function SetBackgroundMove(val) {
 	bgr_move = val
 }
