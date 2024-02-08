@@ -1,4 +1,6 @@
 
+depth = -10;
+
 /// main parameters
 vsp_max = 60
 grav = 1.3
@@ -7,6 +9,8 @@ vsp = 0
 in_control = true
 
 was_down_free = false;
+
+jump_count = 0;
 
 initial_image_speed = image_speed
 

@@ -11,6 +11,7 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Moths","order":2,"path":"folders/Sprites/Moths.yy",},
     {"name":"Noom","order":1,"path":"folders/Sprites/Noom.yy",},
+    {"name":"Obstacles","order":5,"path":"folders/Sprites/Obstacles.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"utils","order":6,"path":"scripts/utils/utils.yy",},
@@ -33,6 +34,7 @@
     {"name":"oUI","order":6,"path":"objects/oUI/oUI.yy",},
     {"name":"sMothPink","order":1,"path":"sprites/sMothPink/sMothPink.yy",},
     {"name":"sMothBlue","order":3,"path":"sprites/sMothBlue/sMothBlue.yy",},
+    {"name":"oRecycler","order":13,"path":"objects/oRecycler/oRecycler.yy",},
     {"name":"acNomNom","order":2,"path":"animcurves/acNomNom/acNomNom.yy",},
     {"name":"acNoomText","order":5,"path":"animcurves/acNoomText/acNoomText.yy",},
     {"name":"sNoomCry2","order":2,"path":"sprites/sNoomCry2/sNoomCry2.yy",},
@@ -41,6 +43,7 @@
     {"name":"sAriaJumpDown","order":4,"path":"sprites/sAriaJumpDown/sAriaJumpDown.yy",},
     {"name":"oController","order":8,"path":"objects/oController/oController.yy",},
     {"name":"Game","order":1,"path":"scripts/Game/Game.yy",},
+    {"name":"sPillow","order":1,"path":"sprites/sPillow/sPillow.yy",},
     {"name":"rmGame","order":1,"path":"rooms/rmGame/rmGame.yy",},
     {"name":"oMoth","order":7,"path":"objects/oMoth/oMoth.yy",},
     {"name":"oBlock","order":5,"path":"objects/oBlock/oBlock.yy",},

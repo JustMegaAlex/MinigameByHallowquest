@@ -20,7 +20,8 @@ if in_control {
 
 vsp = approach(vsp, vsp_max, grav)
 
-if key_jump and !down_free {
+if (key_jump && (!down_free || jump_count == 1)) {
+	jump_count += 1;
 	vsp = jump_sp
 	sprite_index = sAriaJumpUp;
 }
@@ -43,6 +44,7 @@ if (vsp > 0 && down_free) {
 // If we were falling and just touched ground
 // Resume animation. Animation End event will do the rest.
 if (!down_free && was_down_free) {
+	jump_count = 0;
 	image_speed = initial_image_speed;
 }
 
