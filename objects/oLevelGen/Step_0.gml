@@ -16,18 +16,8 @@ if (is_gen_on) {
 		moth_timer.start();
 		
 		var moth = instance_create_layer(room_width + 100, 0, "Instances", oMoth);
-		
-		var instances_below = ds_list_create();
-		var count = collision_line_list(room_width, 0, room_width, room_height, oGround, false, false, instances_below, true);
-		if (count > 0) {
-			var closest_instance = instances_below[| 0];
-			var distance_from_ground = 1440 - closest_instance.sprite_height;
-			moth.y = distance_from_ground;
-			moth.toYAnchor = distance_from_ground;
-			moth.yAnchor = distance_from_ground;
-		}
-		ds_list_destroy(instances_below);
-		
-		show_debug_message("Set moth y to " + string(moth.y));
+		moth.y = 1240;
+		moth.toYAnchor = 1240;
+		moth.yAnchor = 1240;
 	}
 }

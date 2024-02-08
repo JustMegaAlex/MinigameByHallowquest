@@ -11,6 +11,7 @@ if (!grounded) {
 		while (!place_meeting(x, y + 1, oGround)) {
 			y += 1;	
 		}
+		vsp = 0;
 		oScreenShaker.Shake(20, 3, 0.3);
 	} else {
 		y += vsp;	
