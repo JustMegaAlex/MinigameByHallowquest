@@ -40,6 +40,7 @@
     {"name":"sNoomCry2","order":2,"path":"sprites/sNoomCry2/sNoomCry2.yy",},
     {"name":"oNoom","order":12,"path":"objects/oNoom/oNoom.yy",},
     {"name":"sMothTeal","order":2,"path":"sprites/sMothTeal/sMothTeal.yy",},
+    {"name":"oScreenShaker","order":14,"path":"objects/oScreenShaker/oScreenShaker.yy",},
     {"name":"sAriaJumpDown","order":4,"path":"sprites/sAriaJumpDown/sAriaJumpDown.yy",},
     {"name":"oController","order":8,"path":"objects/oController/oController.yy",},
     {"name":"Game","order":1,"path":"scripts/Game/Game.yy",},

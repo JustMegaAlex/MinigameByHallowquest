@@ -66,6 +66,7 @@
     {"id":{"name":"sMothTeal","path":"sprites/sMothTeal/sMothTeal.yy",},},
     {"id":{"name":"sMothRed","path":"sprites/sMothRed/sMothRed.yy",},},
     {"id":{"name":"fntMain","path":"fonts/fntMain/fntMain.yy",},},
+    {"id":{"name":"oScreenShaker","path":"objects/oScreenShaker/oScreenShaker.yy",},},
     {"id":{"name":"sAriaJumpDown","path":"sprites/sAriaJumpDown/sAriaJumpDown.yy",},},
     {"id":{"name":"oController","path":"objects/oController/oController.yy",},},
     {"id":{"name":"Game","path":"scripts/Game/Game.yy",},},
