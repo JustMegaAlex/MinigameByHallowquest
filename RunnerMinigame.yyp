@@ -33,6 +33,7 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
+    {"id":{"name":"oStalker","path":"objects/oStalker/oStalker.yy",},},
     {"id":{"name":"utils","path":"scripts/utils/utils.yy",},},
     {"id":{"name":"Globals","path":"scripts/Globals/Globals.yy",},},
     {"id":{"name":"fntSmall","path":"fonts/fntSmall/fntSmall.yy",},},
@@ -56,6 +57,7 @@
     {"id":{"name":"oUI","path":"objects/oUI/oUI.yy",},},
     {"id":{"name":"sMothPink","path":"sprites/sMothPink/sMothPink.yy",},},
     {"id":{"name":"sBooks","path":"sprites/sBooks/sBooks.yy",},},
+    {"id":{"name":"sStalker","path":"sprites/sStalker/sStalker.yy",},},
     {"id":{"name":"sMothBlue","path":"sprites/sMothBlue/sMothBlue.yy",},},
     {"id":{"name":"oRecycler","path":"objects/oRecycler/oRecycler.yy",},},
     {"id":{"name":"sAriaIdle","path":"sprites/sAriaIdle/sAriaIdle.yy",},},

@@ -14,6 +14,7 @@
     {"name":"Obstacles","order":5,"path":"folders/Sprites/Obstacles.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"oStalker","order":15,"path":"objects/oStalker/oStalker.yy",},
     {"name":"utils","order":6,"path":"scripts/utils/utils.yy",},
     {"name":"fntSmall","order":1,"path":"fonts/fntSmall/fntSmall.yy",},
     {"name":"oGround","order":4,"path":"objects/oGround/oGround.yy",},
@@ -33,6 +34,7 @@
     {"name":"sNoomCry","order":1,"path":"sprites/sNoomCry/sNoomCry.yy",},
     {"name":"oUI","order":6,"path":"objects/oUI/oUI.yy",},
     {"name":"sMothPink","order":1,"path":"sprites/sMothPink/sMothPink.yy",},
+    {"name":"sStalker","order":6,"path":"sprites/sStalker/sStalker.yy",},
     {"name":"sMothBlue","order":3,"path":"sprites/sMothBlue/sMothBlue.yy",},
     {"name":"oRecycler","order":13,"path":"objects/oRecycler/oRecycler.yy",},
     {"name":"acNomNom","order":2,"path":"animcurves/acNomNom/acNomNom.yy",},
